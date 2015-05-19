@@ -1,0 +1,54 @@
+/* Module.scss */
+header[role="banner"]{
+    background: url('../Images/desktop.png') left center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    width: 100vw;
+}
+
+
+nav[role="navigation"]{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.main-about-text {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+
+.main-about-text p:first-of-type{
+    margin-top: -20px;
+}
+
+.main-about-text p:last-of-type{
+        margin-bottom: 0;
+}
+
+.main-portraits img {
+    filter: grayscale(1);
+    transition: all 300ms ease-in-out;
+    &:hover {
+        filter: grayscale(0);
+        transition: all 300ms ease-in-out;
+    }
+    padding-top: 20px;
+}
+
+.contentinfo {
+    background-color: black;
+    color: #fff;
+}
+
+.contact-info {
+    
+}
+
+.banner-headline {
+    text-shadow: 1px 1px 1px #000;
+    
+}
+

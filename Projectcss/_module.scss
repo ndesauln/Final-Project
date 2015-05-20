@@ -6,32 +6,20 @@ nav[role="navigation"]{
     top: 10px;
 }
 
-.equal-height-info {
-    column-count: 1;
-    column-gap: 10px;
+.main-portraits{
+    padding-top: 20px
 }
 
-
-.main-about-text p:first-of-type{
-    margin-top: 20px;
+.main-about-text{
+    padding-left: 0px;
+    padding-top: 0px;
 }
-
-.main-about-text p:last-of-type{
-        margin-bottom: 0;
-}
-
 
 .contentinfo {
     background-color: black;
     color: #fff;
 }
 
-.contact-info {
-    
+.link-text{
+    color: aliceblue;
 }
-
-.banner-headline {
-    text-shadow: 1px 1px 1px #000;
-    
-}
-

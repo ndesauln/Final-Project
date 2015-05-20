@@ -1,6 +1,6 @@
 /* Module.scss */
 header[role="banner"]{
-    background: url('../Images/desktop.png') left center no-repeat;
+    background: url('../Images/Desktopphoto.jpg') left center no-repeat;
     background-size: cover;
     height: 100vh;
     text-align: center;
@@ -15,18 +15,12 @@ nav[role="navigation"]{
 }
 
 .main-about-text {
-    column-count: 2;
+    column-count: 0;
     column-gap: 20px;
 }
 
 
-.main-about-text p:first-of-type{
-    margin-top: -20px;
-}
 
-.main-about-text p:last-of-type{
-        margin-bottom: 0;
-}
 
 .main-portraits img {
     filter: grayscale(1);
